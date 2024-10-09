@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador - Optimus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Barra lateral -->
+    <aside class="sidebar bg-dark text-white">
+        <div class="sidebar-header p-3">
+            <h4>OPTIMUS</h4>
+        </div>
+        <nav class="nav flex-column">
+            <a class="nav-link text-white" href="dashboard.html">Dashboard</a>
+            <a class="nav-link text-white" href="#">Mi Area</a>
+            <a class="nav-link text-white" href="#">Solicitudes</a>
+            <a class="nav-link text-white" href="#">Artículos</a>
+            <a class="nav-link text-white" href="#">Reportes</a>
+        </nav>
+    </aside>
+
+    <!-- Contenido principal -->
+    <main class="main-content p-4">
+        <div class="container-fluid">
+            <h2>Gestión de Tareas</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header bg-danger text-white">Urgente</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Duplicado de datos en ERP</h5>
+                            <p class="card-text">Necesita resolución inmediata.</p>
+                            <p class="card-text text-muted">Solicitado por Eleanor Crawford</p>
+                            <button class="btn btn-primary">Ver Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header bg-warning text-white">Crítico</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Nuevo empleado para estación de trabajo</h5>
+                            <p class="card-text">Necesita configurar equipo nuevo.</p>
+                            <p class="card-text text-muted">Solicitado por Vickie Turner</p>
+                            <button class="btn btn-primary">Ver Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header bg-success text-white">Moderado</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Cambio de tóner en HP322</h5>
+                            <p class="card-text">Mantenimiento rutinario de impresora.</p>
+                            <p class="card-text text-muted">Solicitado por Brooklyn Buter</p>
+                            <button class="btn btn-primary">Ver Detalles</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <h3>Acciones Pendientes</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">Confirmar con el equipo de redes - <span class="text-muted">Hace 5 días</span></li>
+                        <li class="list-group-item">Verificar el servidor SMTP con el equipo de correo - <span class="text-muted">Hace 3 días</span></li>
+                        <li class="list-group-item">Aprobación de nueva estación de trabajo - <span class="text-muted">Hoy</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

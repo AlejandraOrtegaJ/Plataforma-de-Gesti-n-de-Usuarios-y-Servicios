@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador - Optimus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Barra lateral -->
+    <aside class="sidebar bg-dark text-white">
+        <div class="sidebar-header p-3">
+            <h4>OPTIMUS</h4>
+        </div>
+        <nav class="nav flex-column">
+            <a class="nav-link text-white" href="#">Inicio</a>
+            <a class="nav-link text-white" href="#">Solicitudes</a>
+            <a class="nav-link text-white" href="#">Artículos</a>
+            <a class="nav-link text-white" href="#">Reportes</a>
+        </nav>
+    </aside>
+
+    <!-- Contenido principal -->
+    <main class="main-content p-4">
+        <div class="container-fluid">
+            <h2>Solicitudes Asignadas</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header bg-warning text-white">Crítico</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Incidencia en la red de la oficina</h5>
+                            <p class="card-text">Problema detectado en la red de servidores.</p>
+                            <p class="card-text text-muted">Asignado a John Doe</p>
+                            <button class="btn btn-outline-primary">Ver Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header bg-success text-white">Moderado</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mantenimiento de impresora</h5>
+                            <p class="card-text">Cambio de tóner en impresora.</p>
+                            <p class="card-text text-muted">Asignado a Jane Smith</p>
+                            <button class="btn btn-outline-primary">Ver Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header bg-danger text-white">Urgente</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Errores en el sistema ERP</h5>
+                            <p class="card-text">Duplicación de datos en ERP.</p>
+                            <p class="card-text text-muted">Asignado a Michael Johnson</p>
+                            <button class="btn btn-outline-primary">Ver Detalles</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

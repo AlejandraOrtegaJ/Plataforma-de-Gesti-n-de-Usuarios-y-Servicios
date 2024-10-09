@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Optimus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Barra lateral -->
+    <aside class="sidebar bg-dark text-white">
+        <div class="sidebar-header p-3">
+            <h4>OPTIMUS</h4>
+        </div>
+        <nav class="nav flex-column">
+            <a class="nav-link text-white" href="#">Dashboard</a>
+            <a class="nav-link text-white" href="#">Mi Area</a>
+            <a class="nav-link text-white" href="#">Solicitudes</a>
+            <a class="nav-link text-white" href="#">Artículos</a>
+            <a class="nav-link text-white" href="#">Reportes</a>
+        </nav>
+    </aside>
+
+    <!-- Contenido principal -->
+    <main class="main-content p-4" style="margin-left: 210px;">
+        <div class="container-fluid">
+            <h2>Dashboard de Solicitudes</h2>
+
+            <!-- Fila de tarjetas -->
+            <div class="row">
+                <!-- Tarjeta 1 -->
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header bg-danger text-white">Urgente</div>
+                        <div class="card-body">
+                            <h5 class="card-title">No se puede conectar a MySQL</h5>
+                            <p class="card-text">Solicitante: Sofía Serrano</p>
+                            <p class="card-text text-muted">Categoría: Dispositivos</p>
+                            <div class="d-flex justify-content-between">
+                                <span class="badge bg-secondary">#2450</span>
+                                <span class="text-muted">5 min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 2 -->
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header bg-warning text-white">Media</div>
+                        <div class="card-body">
+                            <h5 class="card-title">La computadora no funciona</h5>
+                            <p class="card-text">Solicitante: Daniela González</p>
+                            <p class="card-text text-muted">Categoría: PC / Laptops</p>
+                            <div class="d-flex justify-content-between">
+                                <span class="badge bg-secondary">#2448</span>
+                                <span class="text-muted">10 min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 3 -->
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header bg-success text-white">Baja</div>
+                        <div class="card-body">
+                            <h5 class="card-title">La licencia de Windows ha expirado</h5>
+                            <p class="card-text">Solicitante: Travis García</p>
+                            <p class="card-text text-muted">Categoría: Licencias</p>
+                            <div class="d-flex justify-content-between">
+                                <span class="badge bg-secondary">#2427</span>
+                                <span class="text-muted">15 min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segunda fila de tarjetas -->
+            <div class="row">
+                <!-- Tarjeta 4 -->
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header bg-warning text-white">Media</div>
+                        <div class="card-body">
+                            <h5 class="card-title">El cliente no está actualizando la información</h5>
+                            <p class="card-text">Solicitante: John Thomas</p>
+                            <p class="card-text text-muted">Categoría: Información del cliente</p>
+                            <div class="d-flex justify-content-between">
+                                <span class="badge bg-secondary">#2050</span>
+                                <span class="text-muted">Hace 2 horas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 5 -->
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header bg-danger text-white">Urgente</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Error en la licencia de Illustrator</h5>
+                            <p class="card-text">Solicitante: Daniela González</p>
+                            <p class="card-text text-muted">Categoría: Licencias</p>
+                            <div class="d-flex justify-content-between">
+                                <span class="badge bg-secondary">#2412</span>
+                                <span class="text-muted">Hace 1 día</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 6 -->
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header bg-success text-white">Baja</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Conexión remota a MySQL fallida</h5>
+                            <p class="card-text">Solicitante: Nahuel Panarasa</p>
+                            <p class="card-text text-muted">Categoría: Servidores</p>
+                            <div class="d-flex justify-content-between">
+                                <span class="badge bg-secondary">#2417</span>
+                                <span class="text-muted">Hace 2 días</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Optimus - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

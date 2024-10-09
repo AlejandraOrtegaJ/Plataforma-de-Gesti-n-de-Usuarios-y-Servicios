@@ -1,0 +1,278 @@
+/* Estilos personalizados para la página */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Estilos personalizados para los botones */
+.btn-register {
+    background: linear-gradient(90deg, #6675F7 13%, #1C7BA7 100%);
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.btn-register:hover {
+    background: linear-gradient(90deg, #1C7BA7 13%, #6675F7 100%);
+    color: white;
+    text-decoration: none;
+}
+
+
+.btn-primary {
+    background: linear-gradient(90deg, #6675F7 13%, #1C7BA7 100%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #1C7BA7 13%, #6675F7 100%);
+    color: white;
+    text-decoration: none;
+}
+
+/* Botón de borde (contacto) */
+.btn-outline-primary {
+    background-color: transparent;
+    border: 2px solid #1C7BA7;
+    color: #1C7BA7;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #1C7BA7;
+    color: white;
+}
+
+
+.hero-section {
+    background-color: #f8f9fa;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.hero-section p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.hero-section .btn-primary {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #f1f1f1;
+    color: #666;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilos para la página de inicio de sesión */
+.login-section {
+    height: 100vh;
+}
+
+.login-form {
+    max-width: 400px;
+    width: 100%;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.btn-login {
+    background: linear-gradient(90deg, #6675F7 13%, #1C7BA7 100%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    transition: background 0.3s ease;
+}
+
+.btn-login:hover {
+    background: linear-gradient(90deg, #1C7BA7 13%, #6675F7 100%);
+    color: white;
+    text-decoration: none;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #666;
+}
+
+.invalid-feedback {
+    display: block;
+}
+
+/* Estilos para la página de registro */
+.login-section {
+    height: 100vh;
+}
+
+.login-form {
+    max-width: 400px;
+    width: 100%;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.btn-login {
+    background: linear-gradient(90deg, #6675F7 13%, #1C7BA7 100%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    transition: background 0.3s ease;
+}
+
+.btn-login:hover {
+    background: linear-gradient(90deg, #1C7BA7 13%, #6675F7 100%);
+    color: white;
+    text-decoration: none;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #666;
+}
+
+/* Estilos para la página de contacto */
+
+.contact-section {
+    height: 100vh;
+}
+
+.contact-form {
+    max-width: 500px;
+    width: 100%;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.btn-contact {
+    background: linear-gradient(90deg, #6675F7 13%, #1C7BA7 100%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    transition: background 0.3s ease;
+}
+
+.btn-contact:hover {
+    background: linear-gradient(90deg, #1C7BA7 13%, #6675F7 100%);
+    color: white;
+    text-decoration: none;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #666;
+}
+
+textarea {
+    resize: none;
+}
+
+
+/* Estilos pagina dashboard*/
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #6675F7 13%, #1C7BA7 100%);
+    color: white;
+}
+
+.sidebar-header {
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.sidebar .nav-link {
+    padding: 15px;
+    font-size: 1.1rem;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+
+.main-content {
+    margin-left: 210px;
+}
+
+.card-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 1.1rem;
+}
+
+.list-group-item {
+    font-size: 1rem;
+}
+
